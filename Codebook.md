@@ -17,20 +17,20 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 
 ### Data modifications carried out
-The original data was merged to create a Test + Train = Full dataset with keys denoting the source of the observation<br/>
-Feature names were imported from features.txt and used as original variable names.<br/>
-Observations were linked to the subject. <br/>
-Activity labels were changed to descriptive activity names<br/>
-Data selection and filtering were carried out See: Data Selection of this document<br/>
-Descriptive variable names were created See: Variable Names section of this document<br/>
-Data aggregation was carried out to get a summary of data See: Data Summarization section of this document<br/>
-The complete list of variables in output is available at Output Variables & Measures section of this document<br/>
+1 The original data was merged to create a Test + Train = Full dataset with keys denoting the source of the observation<br/>
+2 Feature names were imported from features.txt and used as original variable names.<br/>
+3 Observations were linked to the subject. <br/>
+4 Activity labels were changed to descriptive activity names<br/>
+5 Data selection and filtering were carried out __See: Data Selection of this document__<br/>
+6 Descriptive variable names were created __See: Variable Names section of this document__<br/>
+7 Data aggregation was carried out to get a summary of data __See: Data Summarization section of this document__<br/>
+8 The complete list of variables in output is available at __Output Variables & Measures section of this document__<br/>
 <br/>
 ### Data Selection
 Data referring to Averages and Standard deviation were included in the final dataset. Mean frequencies were not considered mean measures, hence they were filtered. This resulted in a dataset of 66 measured variables.<br/>
 
 ### Variable Names
-Descriptive variable names refer to the content of the measured
+Descriptive variable names refer to the content of the measured as follows:
 #### Measures:
 Mean - refers to mean of the measured variable<br/>
 Standard_deviation refers to the standard deviation of the measure<br/>
