@@ -26,25 +26,26 @@ www.smartlab.ws
 
 ## Requiements to use the script
 Save and unzip the following original data to your working directory:
-[Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-the folder structure should look like the following
-./UCI contains 
-  activity_labels
-  features
-  features_info
-./UCI/test contains 
-  subject_test
-  X_test
-  Y_test
-./UCI/train contains 
-  subject_train
-  X_train
-  Y_train
-The description of the files are in the Codebook.md supplied in the repository
-
-The R script is written in R version 3.2.1 (2015-06-18)   
-Uses the following libraries: dplyr, data.table stringr reshape2
-
+[Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) <br/>
+the folder structure should look like the following:<br/>
+<br/>
+./UCI contains<br/> 
+  activity_labels<br/>
+  features<br/>
+  features_info<br/>
+./UCI/test contains <br/>
+  subject_test<br/>
+  X_test<br/>
+  Y_test<br/>
+./UCI/train contains<br/> 
+  subject_train<br/>
+  X_train<br/>
+  Y_train<br/>
+The description of the files are in the Codebook.md supplied in the repository<br/>
+<br/>
+The R script is written in R version 3.2.1 (2015-06-18)<br/>   
+Uses the following libraries: dplyr, data.table stringr reshape2<br/>
+<br/>
 ## Running the run_analysis.R script
 for running the script after downloading the source data:
 1. place the script in your working directory
@@ -98,8 +99,8 @@ The data contains a header with descriptive variable names (see Codebook.MD), us
 
 #### 7 adds descriptive variable names  
    
-   See: Assignment task 4
-   See: Codebook.md
+   See: Assignment task 4<br/>
+   See: Codebook.md<br/>
 
 
 #### 8 summarizes data per subject/activity and variable means 
