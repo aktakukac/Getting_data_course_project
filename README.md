@@ -1,10 +1,13 @@
 ---
-title: "Human Activity Recognition Using Smartphone Dataset - Data preparation for modeling purposes"
+title: "Human Activity Recognition Using Smartphone Dataset <br/> 
+        Data preparation for modeling purposes"
 author: "Mihaly Garamvolgyi"
 date: "2015-07-24"
-output:
 
 ---
+
+# Human Activity Recognition Using Smartphone Dataset - Data preparation for modeling purposes
+
 
 ## contents of the repository: 
 1. README.md
