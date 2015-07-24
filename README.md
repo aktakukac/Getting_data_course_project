@@ -67,30 +67,30 @@ The data contains a header with descriptive variable names (see Codebook.MD), us
 
 ## What the R code does
 
-#### reads data
-Test_data
-Test_data_labels
-Test_subject
-Train_data
-Train_data_labels
-Train_subject
-Activity_labels
-Features
+---1 reads data---
+* Test_data
+* Test_data_labels
+* Test_subject
+* Train_data
+* Train_data_labels
+* Train_subject
+* Activity_labels
+* Features
 
-#### renames variables
-#### removes duplicate columns
-#### flags and merges Test and Train data 
- ---Assignment task 1---
-#### gathers required variables containing standard deviation and means 
- ---Assignment task 2---
-#### adds activity names from activity labels 
- ---Assignment task 3---
-#### adds descriptive variable names  
- ---Assignment task 4---
- see: Codebook.md
-#### summarizes data per subject/activity and variable means 
- ---Assignment task 5---
-#### exports data to output.txt in working directory 
+---2 renames variables---
+---3 removes duplicate columns---
+---4 flags and merges Test and Train data--- 
+  See: Assignment task 1
+---5 gathers required variables containing standard deviation and means ---
+  > See: Assignment task 2
+---6 adds activity names from activity labels ---
+  > See: Assignment task 3
+---7 adds descriptive variable names  ---
+  > See: Assignment task 4
+  > See: Codebook.md
+---8 summarizes data per subject/activity and variable means ---
+  > See: Assignment task 5
+---9 exports data to output.txt in working directory ---
 
 
 
