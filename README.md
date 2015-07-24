@@ -6,7 +6,7 @@ date: "2015-07-24"
 
 ---
 
-# Human Activity Recognition Using Smartphone Dataset - Data preparation for modeling purposes
+## Human Activity Recognition Using Smartphone Dataset <br/> Data preparation for modeling purposes <br/> Coursera Project 
 
 
 ## contents of the repository: 
