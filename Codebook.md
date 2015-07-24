@@ -27,24 +27,25 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 8 The complete list of variables in output is available at __Output Variables & Measures section of this document__<br/>
 <br/>
 ### Data Selection
-Data referring to Averages and Standard deviation were included in the final dataset. Mean frequencies were not considered mean measures, hence they were filtered. This resulted in a dataset of 66 measured variables.<br/>
+Data referring to Averages and Standard deviation were included in the final dataset. Mean frequencies were not considered mean measures, hence they were filtered. <br/>
+This resulted in a dataset of __66 measured variables__.<br/>
 
 ### Variable Names
 Descriptive variable names refer to the content of the measured as follows:
-#### Measures:
+##### Measures:
 Mean - refers to mean of the measured variable<br/>
 Standard_deviation refers to the standard deviation of the measure<br/>
-#### Measurement reference:
+##### Measurement reference:
 Body - denotes the body motion component of the measure<br/>
 Gravity - denotes the gravitational component of the measure<br/>
 Acceleration - denotes the measure is for the acceleration component of the observation<br/> 
 Gyroscope -  denotes the measure is for the measurement on the gyroscope of the smartphone<br/>
 Jerk - derived jerk signal from body linear acceleration and angular velocity. <br/>
 Magnitude -  calculated magnitude of the three-dimensional signals. <br/>
-#### Domain:
+##### Domain:
 Time - Time domain signals of the observation<br/>
 Frequency - Frequency domain of the observation<br/>
-#### Axes:
+##### Axes:
 Axis_X - measurement along X axis<br/>
 Axis_Y - measurement along Y axis<br/>
 Axis_Z - measurement along Z axis<br/>
@@ -54,13 +55,13 @@ Data was then summarized - mean values were calculated for each subject/activity
 
 ### Output Variables & Measures
 
-#### Identification variables: 
+##### Identification variables: 
 Subject  -  denotes the number of the individual that carried out the activity<br/>
 Activity_description  - denotes the activity <br/>
 Possible values: LAYING, SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS  <br/>
 
-#### Measures:
-All measures are scale irrelevant, as they are normalized and have a range of [-1, 1]<br/>
+##### Measures:
+All measures are __scale irrelevant__, as they are normalized and have a range of [-1, 1]<br/>
 
 Mean_Time_Body_Acceleration_Axis_X
 Mean_Time_Body_Acceleration_Axis_Y
